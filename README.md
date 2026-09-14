@@ -59,11 +59,6 @@ Fused Representation
   └──────────────► XGBoost Classifier
 ```
 
-The central research question is:
-
-> **Can jointly learned visual and audio representations, combined through cross-modal attention, provide a stronger representation for Parkinson’s Disease classification than conventional single-modality or simple feature-concatenation approaches?**
-
----
 
 # Dataset Description
 
