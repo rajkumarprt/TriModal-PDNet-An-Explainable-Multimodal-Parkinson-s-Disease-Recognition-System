@@ -1,0 +1,9 @@
+metric,p_value,significance,interpretation
+accuracy,0.009014481333908936,**,Statistically significant difference
+precision,0.883250072918218,NS,No statistically significant difference
+recall,0.08966251702034518,NS,No statistically significant difference
+f1,0.01520782151472918,*,Statistically significant difference
+tpr,0.08966251702034518,NS,No statistically significant difference
+fpr,0.8074266613969091,NS,No statistically significant difference
+auroc,0.5074865486886958,NS,No statistically significant difference
+loss,0.09674289191069814,NS,No statistically significant difference
