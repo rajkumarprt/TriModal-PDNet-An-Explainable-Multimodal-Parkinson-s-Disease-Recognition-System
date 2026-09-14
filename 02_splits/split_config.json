@@ -1,0 +1,18 @@
+{
+    "dataset": "YouTube",
+    "dataset_role": "Model development",
+    "total_samples": 117,
+    "train_samples": 81,
+    "validation_samples": 18,
+    "test_samples": 18,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15,
+    "test_ratio": 0.15,
+    "stratification": true,
+    "stratification_column": "label",
+    "random_seed": 42,
+    "subject_ids_available": false,
+    "split_type": "stratified video-level split",
+    "turning_dataset_used": false,
+    "turning_dataset_role": "External validation only"
+}

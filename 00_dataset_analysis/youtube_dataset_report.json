@@ -1,0 +1,16 @@
+{
+    "dataset": "YouTube",
+    "dataset_role": "Model development",
+    "total_videos": 117,
+    "negative_videos": 51,
+    "positive_videos": 66,
+    "readable_videos": 117,
+    "unreadable_videos": 0,
+    "videos_with_audio": 117,
+    "videos_without_audio": 0,
+    "duration_mean_sec": 11.903796985544796,
+    "duration_min_sec": 5.033333333333333,
+    "duration_max_sec": 23.32,
+    "unique_resolutions": 10,
+    "unique_fps": 7
+}

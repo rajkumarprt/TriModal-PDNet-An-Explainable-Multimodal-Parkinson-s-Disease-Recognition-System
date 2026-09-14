@@ -1,0 +1,42 @@
+
+MODULE 2 DATA SPLITTING PROTOCOL
+=================================
+
+Dataset-1:
+YouTube Parkinson's video dataset.
+
+Role:
+Model development.
+
+Dataset-2:
+Turning video dataset.
+
+Role:
+External validation only.
+
+Dataset splitting:
+The YouTube dataset was divided into training, validation, and
+testing subsets using stratified sampling with a fixed random seed.
+
+Split ratio:
+70% training
+15% validation
+15% testing
+
+Stratification variable:
+Parkinson's disease class label.
+
+Subject-level identifiers:
+No explicit subject identifiers were available in the provided
+YouTube filenames/metadata. Therefore, the current split is
+stratified at the video level and should not be described as
+subject-independent.
+
+Data leakage prevention:
+No file appears in more than one split.
+
+Turning dataset:
+The Turning dataset is not used during training, validation,
+hyperparameter optimization, threshold selection, or model
+selection. It is reserved exclusively for external validation
+after the final YouTube-trained model is frozen.

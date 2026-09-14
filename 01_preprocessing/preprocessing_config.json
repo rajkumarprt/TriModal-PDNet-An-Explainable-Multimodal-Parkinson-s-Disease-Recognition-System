@@ -1,0 +1,27 @@
+{
+    "video": {
+        "num_frames": 32,
+        "image_size": 224,
+        "channels": 3,
+        "normalization_mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "normalization_std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "audio": {
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_seconds": 10.0,
+        "num_samples": 160000,
+        "n_mels": 128,
+        "n_fft": 1024,
+        "hop_length": 512
+    },
+    "random_seed": 42
+}

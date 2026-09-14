@@ -1,0 +1,19 @@
+video_id,filename,path,label,class,dataset,video_readable,fps,frame_count,duration_sec,width,height,has_audio,audio_codec,audio_sample_rate,audio_channels,audio_duration_sec
+youtube_0054,clip_002.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_002.mp4,1,Positive,YouTube,True,29.97002997002997,358,11.945266666666669,640,360,True,aac,44100,2,10.000998
+youtube_0058,clip_015.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_015.mp4,1,Positive,YouTube,True,29.97002997002997,158,5.271933333333333,640,360,True,aac,44100,2,5.010998
+youtube_0023,clip_047.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_047.mp4,0,Negative,YouTube,True,30.0,271,9.033333333333331,320,240,True,aac,44100,2,7.009002
+youtube_0041,clip_095.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_095.mp4,0,Negative,YouTube,True,29.97002997002997,358,11.945266666666669,640,356,True,aac,44100,2,10.02
+youtube_0112,clip_107.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_107.mp4,1,Positive,YouTube,True,29.97002997002997,176,5.872533333333333,640,360,True,aac,44100,2,5.021995
+youtube_0070,clip_036.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_036.mp4,1,Positive,YouTube,True,23.976023976023978,278,11.594916666666666,640,360,True,aac,44100,2,10.009002
+youtube_0067,clip_031.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_031.mp4,1,Positive,YouTube,True,29.97002997002997,277,9.242566666666669,640,360,True,aac,44100,2,9.002993
+youtube_0097,clip_081.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_081.mp4,1,Positive,YouTube,True,25.0,251,10.04,640,360,True,aac,44100,2,10.000998
+youtube_0010,clip_021.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_021.mp4,0,Negative,YouTube,True,29.0,367,12.655172413793103,480,360,True,aac,44100,2,10.010998
+youtube_0014,clip_025.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_025.mp4,0,Negative,YouTube,True,29.97002997002997,428,14.280933333333332,490,360,True,aac,44100,2,10.008005
+youtube_0038,clip_087.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_087.mp4,0,Negative,YouTube,True,25.0,367,14.68,640,360,True,aac,44100,2,10.0
+youtube_0057,clip_013.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_013.mp4,1,Positive,YouTube,True,29.97002997002997,416,13.880533333333334,640,360,True,aac,44100,2,10.001995
+youtube_0028,clip_063.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_063.mp4,0,Negative,YouTube,True,29.97002997002997,503,16.783433333333335,640,360,True,aac,44100,2,10.01
+youtube_0092,clip_071.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_071.mp4,1,Positive,YouTube,True,29.97,423,14.114114114114114,640,360,True,aac,44100,2,10.016009
+youtube_0064,clip_028.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_028.mp4,1,Positive,YouTube,True,29.97002997002997,361,12.045366666666666,640,360,True,aac,44100,2,10.005011
+youtube_0022,clip_046.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_046.mp4,0,Negative,YouTube,True,30.0,451,15.033333333333331,640,360,True,aac,44100,2,10.02
+youtube_0007,clip_012.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Negative/clip_012.mp4,0,Negative,YouTube,True,24.0,303,12.625,320,240,True,aac,44100,2,10.010998
+youtube_0094,clip_075.mp4,/content/drive/MyDrive/ParkinsonDataset/Youtube dataset/Positive/clip_075.mp4,1,Positive,YouTube,True,29.97,391,13.04637971304638,640,360,True,aac,44100,2,10.01

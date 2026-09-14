@@ -1,0 +1,28 @@
+{
+    "dataset": "YouTube",
+    "dataset_role": "Model development",
+    "random_seed": 42,
+    "total_samples": 117,
+    "train_samples": 81,
+    "validation_samples": 18,
+    "test_samples": 18,
+    "label_mapping": {
+        "Negative": 0,
+        "Positive": 1
+    },
+    "train_distribution": {
+        "Positive": 46,
+        "Negative": 35
+    },
+    "validation_distribution": {
+        "Positive": 10,
+        "Negative": 8
+    },
+    "test_distribution": {
+        "Positive": 10,
+        "Negative": 8
+    },
+    "train_validation_overlap": 0,
+    "train_test_overlap": 0,
+    "validation_test_overlap": 0
+}
