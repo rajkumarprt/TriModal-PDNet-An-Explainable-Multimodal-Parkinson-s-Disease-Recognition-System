@@ -1,0 +1,67 @@
+{
+    "seed": 42,
+    "dataset": "YouTube",
+    "feature_source": "/content/drive/MyDrive/ParkinsonDataset/Module 2/04_step2_optuna_optimized/cached_features",
+    "fusion_configuration": {
+        "fusion_dim": 128,
+        "num_heads": 8,
+        "dropout": 0.2,
+        "learning_rate": 0.00022722035105323624,
+        "weight_decay": 4.42028359896683e-05,
+        "label_smoothing": 0.05,
+        "max_epochs": 15,
+        "patience": 5
+    },
+    "xgboost_configuration": {
+        "max_depth": 3,
+        "learning_rate": 0.16196598001492074,
+        "n_estimators": 150,
+        "min_child_weight": 6,
+        "subsample": 0.85,
+        "colsample_bytree": 0.75,
+        "reg_alpha": 0.00021471698859843542,
+        "reg_lambda": 0.3732722503984233
+    },
+    "ablations": {
+        "A1": {
+            "name": "Without Video",
+            "video": false,
+            "audio": true,
+            "cross_attention": true,
+            "softmax": true,
+            "xgboost": true
+        },
+        "A2": {
+            "name": "Without Audio",
+            "video": true,
+            "audio": false,
+            "cross_attention": true,
+            "softmax": true,
+            "xgboost": true
+        },
+        "A3": {
+            "name": "Without Cross-Attention",
+            "video": true,
+            "audio": true,
+            "cross_attention": false,
+            "softmax": true,
+            "xgboost": true
+        },
+        "A4": {
+            "name": "Complete Hybrid + Softmax",
+            "video": true,
+            "audio": true,
+            "cross_attention": true,
+            "softmax": true,
+            "xgboost": false
+        },
+        "A5": {
+            "name": "Complete Hybrid + XGBoost",
+            "video": true,
+            "audio": true,
+            "cross_attention": true,
+            "softmax": false,
+            "xgboost": true
+        }
+    }
+}
